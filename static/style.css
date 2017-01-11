@@ -418,9 +418,6 @@ input.checkbox:checked:after {
 h1 {
     font-size: 2.6em; 
 }
-.main-agileinfo {
-    width: 40%; 
-}
 }
 @media(max-width:1080px){
 .main-agileinfo {
