@@ -7,6 +7,6 @@ def index_handler(request):
 
 
 
-server = Server()
+server = Server(port=80)
 server.register(r'/', index_handler)
 server.run()
