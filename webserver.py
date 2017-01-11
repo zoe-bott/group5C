@@ -4,7 +4,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from tornado.ncss import Server
 
-scores = {'group 1': 15, 'group 2': 1, 'group 3': 5, 'group 4':90 }
+scores = {'group1': 15, 'group2': 1, 'group3': 5, 'group4':90 }
 
 
 
