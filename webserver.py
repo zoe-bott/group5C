@@ -19,7 +19,8 @@ def index_handler(request):
 	sorted_names = []
 	print(scores)
 	for name, score in scores.items():
-		sorted_scores.append((score,name))
+		nice_name = 'group ' + name[-1] 
+		sorted_scores.append((score,nice_name))
 	
 	
 	sorted_scores.sort()
